@@ -4,11 +4,12 @@ Ignorando a temática de cachorro, esse projeto é um template de watchdog que r
 
 ## Setup
 
-1. rodar `pyinstaller --add-data 'cachorro.jpg;.' --noconsole --onedir --icon=cachorro.jpg main.py` no terminal da sua venv
+1. rodar `pip install -r requirements.txt`
+2. rodar `pyinstaller --add-data 'cachorro.jpg;.' --noconsole --onedir --icon=cachorro.jpg main.py` no terminal da sua venv
    * opcionalmente renomear o main.exe para cachorro.exe, pra ficar temático
 
-2. criar um atalho do executável
-3. colocar o atalho no caminho `C:\Users\<usr>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+3. criar um atalho do executável
+4. colocar o atalho no caminho `C:\Users\<usr>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
 
 
 ## Uso
