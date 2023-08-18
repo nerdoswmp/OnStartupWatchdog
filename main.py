@@ -74,8 +74,6 @@ if __name__ == '__main__':
 
     image = Image.open("cachorro.jpg")
 
-    print(user)
-
     icon = pystray.Icon("cachorrometro", image, menu=pystray.Menu(
         pystray.MenuItem("cachorro", fala_dog),
         pystray.MenuItem("vai dormir cachorro", sleep_cachorro)
